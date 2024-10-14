@@ -1,5 +1,0 @@
-demo[[:space:]]video/Demo[[:space:]]Video_B4M3.mp4 filter=lfs diff=lfs merge=lfs -text
-vomit_detection/r3d18_bs24_frame30_ite1w/base/batch_size[24]frame_num[30]data_balance[True](09_21_23_28)/final.pth filter=lfs diff=lfs merge=lfs -text
-vomit_detection/r3d18_bs24_frame30_ite1w_data12/base/batch_size[24]frame_num[30]data_balance[True](10_21_22_04)/final.pth filter=lfs diff=lfs merge=lfs -text
-vomit_detection/r3d18_bs24_frame30_iter3k_dataall/base/batch_size[24]frame_num[30]data_balance[True](01_14_22_31)/final.pth filter=lfs diff=lfs merge=lfs -text
-vomit_detection/r3d18_bs24_frame30_iter5k_dataall/base/batch_size[24]frame_num[30]data_balance[True](01_11_21_12)/final.pth filter=lfs diff=lfs merge=lfs -text

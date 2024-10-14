@@ -11,7 +11,7 @@ _CN.cache_data = False
 _CN.critical_params = ["batch_size", "frame_num", "data_balance"]
 _CN.mixed_precision = False
 
-_CN.restore_ckpt = "r3d18_bs24_frame30_iter3k_dataall/base/batch_size[24]frame_num[30]data_balance[True](01_14_22_31)/final.pth"
+_CN.restore_ckpt = "models/final.pth"
 _CN.model = 'base'
 
 _CN.frame_num = 30

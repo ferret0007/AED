@@ -12,14 +12,14 @@ Source codes of our paper 'Automatic Emesis Detection (AED): a deep learning-bas
     ```
        conda create -n aed python=3.9
        conda activate aed
-       pip install -f requirements.txt
+       pip install -r requirements.txt
     ```
    
 3. Prepare your own videos
    
-    Please place your videos in the `place_your_video_in_this_folder` folder. You can also change the video path in the `detection_pipeline.py` script.
+    Please place your videos in the `place_your_video_in_this_folder` folder and delete the `video.md` file. You can also change the video path in the `detection_pipeline.py` script. As an example, we release a demo video [here](https://drive.google.com/file/d/1hBAwkTyu0X4YFicfmreKOerNBNNjKozD/view?usp=sharing).
 
-4. Download a trained model from this [link](https://drive.google.com/drive/folders/1dh1JiKJpmIjO-pvLNpcLN5GHUi6tg_Or?usp=sharing) and put it in the  `models` folder
+4. Download a trained model from this [link](https://drive.google.com/drive/folders/1dh1JiKJpmIjO-pvLNpcLN5GHUi6tg_Or?usp=sharing) and put it in the  `models` folder. Change the param `restore_ckpt` in the  `configs/default.py ` file to the model path.
 
 
 5. Emesis detection automatically
